@@ -1,0 +1,4 @@
+This project includes online part and offline part
+In offline part, we want to train models to make NER job. We have 2 kinds of data, one is regular short text, one is irregular data. We want to make sure 
+if the sentence user sent concludes the main disease data. eg. "It's a nice day, but I have a headache"， only headache is a key symptom.
+In online part, we want to ask the user what kind of disease he/she may have through their symptom by Neo4j and redis.
